@@ -2,6 +2,16 @@ public class Wasserstand {
     private int id;
     private String gewaessername;
     private String Ort;
+
+    public Wasserstand(int id, String gewaessername, String ort, double messWert, double messWertFuerAlarmierung, int zeitpunkt) {
+        this.id = id;
+        this.gewaessername = gewaessername;
+        Ort = ort;
+        this.messWert = messWert;
+        this.messWertFuerAlarmierung = messWertFuerAlarmierung;
+        this.zeitpunkt = zeitpunkt;
+    }
+
     private double messWert;
     private double messWertFuerAlarmierung;
     private int zeitpunkt;
