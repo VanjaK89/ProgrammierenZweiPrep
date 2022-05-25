@@ -8,6 +8,6 @@ public class WasserstandManager {
         wasserstands.add(w);
     }
     public Wasserstand findByInt(){
-        
+
     }
 }
