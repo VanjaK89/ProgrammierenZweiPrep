@@ -19,7 +19,7 @@ public class SimplesGetraenk extends Getraenke{
 
     @Override
     public double mengelnM() {
-        return 0;
+        return bestandteil.getMenge();
     }
 
     @Override
